@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Ryan Kim — student developer exploring game design, interactive systems, and responsible gaming experiences." />
+  <title>Ryan Kim — Student Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="noise"></div>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Ryan Kim home"><span>RK</span><strong>RYAN KIM</strong></a>
+    <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">Menu <span>+</span></button>
+    <nav class="nav-links" aria-label="Primary navigation">
+      <a href="#work">Work</a><a href="#about">About</a><a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero container">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> Available for internships · 2026</p>
+        <h1>I build bold<br><em>play.</em></h1>
+        <p class="hero-intro">Student developer exploring the intersection of games, data, and human behavior. I turn curiosity into interactive experiences that are fun, thoughtful, and built to last.</p>
+        <div class="hero-actions"><a class="button button-dark" href="#work">Explore my work <span>↘</span></a><a class="text-link" href="#contact">Let’s connect <span>↗</span></a></div>
+      </div>
+      <div class="hero-art" aria-label="Abstract illustration of a game controller and data points">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="pixel-card"><span class="pixel-label">PLAYER 01</span><div class="pixel-grid"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><strong>READY</strong></div>
+        <div class="circle-mark">◎</div><div class="floating-code">// KEEP<br>// PLAYING</div>
+      </div>
+    </section>
+
+    <section class="ticker" aria-label="Areas of interest"><div>GAME DESIGN <span>✦</span> DATA STORYTELLING <span>✦</span> FIGHTING GAMES <span>✦</span> RESPONSIBLE PLAY <span>✦</span> GAME DESIGN <span>✦</span></div></section>
+
+    <section id="work" class="work container section-pad">
+      <div class="section-heading"><div><p class="eyebrow">Selected work / 01—03</p><h2>Things I’ve<br><em>made.</em></h2></div><p class="section-note">A growing collection of experiments, prototypes, and systems built from a genuine love of games.</p></div>
+      <div class="filters" role="group" aria-label="Filter projects"><button class="filter active" data-filter="all">All</button><button class="filter" data-filter="game">Games</button><button class="filter" data-filter="data">Data &amp; web</button></div>
+      <div class="project-grid">
+        <article class="project-card project-featured" data-category="game"><div class="project-visual visual-red"><span class="visual-number">01</span><div class="versus"><b>YOU</b><span>VS</span><b>THE<br>ODDS</b></div><div class="visual-caption">A probability game about<br>making better decisions</div></div><div class="project-info"><div><p class="project-type">Game concept · Unity / C#</p><h3>House Rules</h3></div><a class="arrow-link" href="#contact" aria-label="Ask about House Rules">↗</a></div></article>
+        <article class="project-card" data-category="data"><div class="project-visual visual-lime"><span class="visual-number">02</span><div class="chart"><i style="height:35%"></i><i style="height:58%"></i><i style="height:42%"></i><i style="height:78%"></i><i style="height:68%"></i><i style="height:94%"></i></div><span class="chart-label">WIN RATE / MATCH DATA</span></div><div class="project-info"><div><p class="project-type">Data dashboard · JavaScript</p><h3>Frame Advantage</h3></div><a class="arrow-link" href="#contact" aria-label="Ask about Frame Advantage">↗</a></div></article>
+        <article class="project-card" data-category="game"><div class="project-visual visual-blue"><img class="sentry-image" src="assets/roblox-sentry.png" alt="Roblox sentry robot with two mounted launchers"><span class="visual-number">03</span><div class="combo">ROBLOX / SENTRY</div><span class="visual-caption">A Roblox sentry<br>that inspired my designs</span></div><div class="project-info"><div><p class="project-type">Game inspiration · Roblox</p><h3>Roblox Sentry</h3></div><a class="arrow-link" href="#contact" aria-label="Ask about Roblox Sentry">↗</a></div></article>
+        <article class="project-card" data-category="game"><div class="project-visual visual-fencing"><img class="fencing-image" src="assets/fencing.png" alt="Two fencers facing each other at sunset"><span class="visual-number">04</span><div class="combo">FOCUS / TIMING</div><span class="visual-caption">Competition, movement,<br>and the moment of impact</span></div><div class="project-info"><div><p class="project-type">Visual reference · Sport</p><h3>Fencing Focus</h3></div><a class="arrow-link" href="#contact" aria-label="Ask about Fencing Focus">↗</a></div></article>
+        <article class="project-card" data-category="game"><div class="project-visual visual-baseball"><img class="baseball-image" src="assets/baseball-swing.png" alt="Baseball player swinging a bat"><span class="visual-number">05</span><div class="combo">BASEBALL / SWING</div><span class="visual-caption">Timing the swing,<br>one decision at a time</span></div><div class="project-info"><div><p class="project-type">Visual reference · Sport</p><h3>Baseball Energy</h3></div><a class="arrow-link" href="#contact" aria-label="Ask about Baseball Energy">↗</a></div></article>
+        <article class="project-card" data-category="data"><div class="project-visual visual-robot"><img class="robot-image" src="assets/robot-dog.png" alt="Four-legged robot dog outdoors"><span class="visual-number">06</span><div class="combo">ROBOTICS / TECH</div><span class="visual-caption">Curiosity about<br>technology in motion</span></div><div class="project-info"><div><p class="project-type">Visual reference · Robotics</p><h3>Robotics in Motion</h3></div><a class="arrow-link" href="#contact" aria-label="Ask about Robotics in Motion">↗</a></div></article>
+      </div>
+    </section>
+
+    <section id="about" class="about section-pad"><div class="container about-layout"><div><p class="eyebrow">A little about me / 02</p><h2>Curious by<br><em>default.</em></h2></div><div class="about-copy"><p>I’m Ryan, a student who likes asking “what if?” and then building the answer. My interests live where game mechanics, probability, and competition overlap.</p><p>I’m especially drawn to fighting games, Roblox sentries, baseball, gambling-inspired systems, and YouTube videos—not just for entertainment, but for the storytelling, strategy, teamwork, and creative ideas they reveal.</p><div class="skills"><span>JavaScript</span><span>HTML / CSS</span><span>Unity</span><span>C#</span><span>Data visualization</span><span>Game systems</span><span>YouTube &amp; video culture</span><span>Baseball</span><span>Roblox sentries</span></div></div></div></section>
+
+    <section id="contact" class="contact container section-pad"><div class="contact-card"><p class="eyebrow">Open line / 03</p><h2>Let’s make<br>something <em>memorable.</em></h2><p>Interested in my work or have a project in mind? I’d love to hear from you.</p><a class="email-link" href="mailto:hello@ryankim.dev">hello@ryankim.dev <span>↗</span></a></div><form class="contact-form" id="contact-form"><label>Your name<input required type="text" name="name" placeholder="Jane Smith"></label><label>Your email<input required type="email" name="email" placeholder="jane@company.com"></label><label>Message<textarea required name="message" rows="4" placeholder="Tell me a little about your idea..."></textarea></label><button class="button button-light" type="submit">Send message <span>↗</span></button><p class="form-message" role="status"></p></form></section>
+  </main>
+  <footer class="site-footer container"><span>© 2026 Ryan Kim</span><span>Built with curiosity + code</span><div><a href="#top">Back to top ↑</a></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>
